@@ -13,14 +13,12 @@
 Установка
 ===
 
-- Деплой приложения на сервер. Linux пакеты устанавливаются скриптом install/install.sh
+- Деплой приложения на сервер.
 - Установка зависимостей `pip install -r requirements.txt`
-- Проверьте владельца папки с приложением и права
+- применение миграций `make migrate`
+- Применение коллектстатик `make collectstatic`
 - Настройка .env `copy .env.dist .env`
-- запуск приложения,
-- запуск "nohup python manage.py rabbit > /dev/null 2>&1 &" (от имени владельца с активированным venv)
-- запуск "nohup celery -A market_place_proj worker -l info > /dev/null 2>&1 &" (от имени владельца с активированным
-  venv)
+
 
 
 ## Make команды
