@@ -2,6 +2,7 @@ import os
 
 import environ
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 root = environ.Path(__file__) - 2
 setting_root = environ.Path(__file__) - 3

@@ -1,15 +1,8 @@
-from datetime import date
-
 from django.shortcuts import render
 from django.views.generic import FormView
 
 from week_app.forms import WeekForms
-
-
-def week_counter(date_c: date) -> int:
-    start_2019 = date(year=2019, month=1, day=1)
-    week_number = ((date_c - start_2019).days + 9) // 7
-    return week_number
+from week_app.utility import week_counter
 
 
 class WeekCounterView(FormView):
