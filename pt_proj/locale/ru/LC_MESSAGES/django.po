@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-03 00:38+0300\n"
+"POT-Creation-Date: 2022-02-03 10:47+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,23 +19,24 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-#: pt_proj/templates/main/index.html:29
-msgid "Week Counter"
-msgstr "Счетчик неделей"
 
-#: pt_proj/templates/main/index.html:45
+#: pt_proj/templates/main/index.html:7 pt_proj/templates/main/index.html:30
+msgid "Week Counter"
+msgstr "Счетчик недель"
+
+#: pt_proj/templates/main/index.html:42
 msgid "Find out the week"
 msgstr "Унать неделю"
 
-#: pt_proj/templates/main/index.html:54
+#: pt_proj/templates/main/index.html:48
 msgid "Starting from 01.01.2019 to"
 msgstr "Начиная с 01.01.2019 по"
 
-#: pt_proj/templates/main/index.html:54
+#: pt_proj/templates/main/index.html:49
 msgid ", provided that the week begins with Sunday:"
 msgstr ", при условии, что неделя начинается с воскресенья:"
 
-#: pt_proj/templates/main/index.html:56
+#: pt_proj/templates/main/index.html:51
 msgid "weeks"
 msgstr "недели"
 
